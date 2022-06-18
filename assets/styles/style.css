@@ -74,6 +74,14 @@ nav a {
    transition: all 0.3s ease-in-out;
    
 }
+.active-ul {
+        display: flex;
+        animation: navMobileActive 0.5s ease-in-out forwards;
+        
+    }
+    .delete-ul {
+         animation: navMobileDelete 0.5s ease-in-out forwards;
+    }
 #hero-content {
     position: relative;
     top: 200px;
@@ -561,14 +569,6 @@ footer {
         justify-content: flex-start;
         padding: 100px 20px;
         margin: 0;
-    }
-    .active-ul {
-        display: flex;
-        animation: navMobileActive 0.5s ease-in-out forwards;
-        
-    }
-    .delete-ul {
-         animation: navMobileDelete 0.5s ease-in-out forwards;
     }
     nav li {
         margin-bottom: 30px;
