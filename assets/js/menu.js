@@ -27,7 +27,7 @@ hamburgerMenu.addEventListener('click', function() {
 })
 
 window.onclick = function(click) {
-    if(!click.target.matches('.hamburger-menu')) {
+    if(!click.target.matches('.hamburger-menu') && hamburgerMenu.classList.contains('active')) {
         hamburgerMenu.classList.remove('active');
         hamburgerMenu.setAttribute('src', 'assets/images/hamburger.svg');
         mobileMenu.classList.remove('active-ul');

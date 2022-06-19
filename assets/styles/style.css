@@ -79,7 +79,7 @@ nav a {
         animation: navMobileActive 0.5s ease-in-out forwards;
         
     }
-    .delete-ul {
+.delete-ul {
          animation: navMobileDelete 0.5s ease-in-out forwards;
     }
 #hero-content {
